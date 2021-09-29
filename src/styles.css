@@ -22,6 +22,49 @@
     linear-gradient(90deg, #a8b1bb 8px, transparent 8px) -4px 0;
   background-color: slategray;
   background-size: 100px 100px, 100px 100px, 50px 50px, 50px 50px;
-  padding: 250px;
-  border: 200px;
+  padding: 170px;
+  border: 25px;
+  margin: -10px;
+}
+.footer {
+  flex-shrink: 0;
+  text-align: center;
+  padding: 0.5rem 0rem;
+  text-align: center;
+  color: white;
+  margin: -10px;
+  /* border-top-right-radius: 1rem; */
+  background-color: #6d695c;
+  background-image: repeating-linear-gradient(
+      120deg,
+      rgba(255, 255, 255, 0.1),
+      rgba(255, 255, 255, 0.1) 1px,
+      transparent 1px,
+      transparent 60px
+    ),
+    repeating-linear-gradient(
+      60deg,
+      rgba(255, 255, 255, 0.1),
+      rgba(255, 255, 255, 0.1) 1px,
+      transparent 1px,
+      transparent 60px
+    ),
+    linear-gradient(
+      60deg,
+      rgba(0, 0, 0, 0.1) 25%,
+      transparent 25%,
+      transparent 75%,
+      rgba(0, 0, 0, 0.1) 75%,
+      rgba(0, 0, 0, 0.1)
+    ),
+    linear-gradient(
+      120deg,
+      rgba(0, 0, 0, 0.1) 25%,
+      transparent 25%,
+      transparent 75%,
+      rgba(0, 0, 0, 0.1) 75%,
+      rgba(0, 0, 0, 0.1)
+    );
+  background-size: 70px 120px;
+  /* color: white; */
 }
